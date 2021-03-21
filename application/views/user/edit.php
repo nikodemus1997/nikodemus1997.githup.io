@@ -38,7 +38,7 @@
             </div>
             <div class="form-group row justify-content-end">
                 <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Edit</button>
+                    <button type="submit" class="btn-edit btn-primary"><span>Edit Profile</span></button>
                 </div>
             </div>
 

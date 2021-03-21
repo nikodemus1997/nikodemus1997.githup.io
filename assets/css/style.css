@@ -12,9 +12,41 @@ body {
   background: radial-gradient(#5791b3, #0b0b0c);
 }
 .navbar-nav {
-  background: linear-gradient(#5791b3, #7f398d);
+  background: linear-gradient(#5791b3, #85096a);
 }
 .navbar ul {
-  background: radial-gradient(#93b3c4, #5a6f97);
+  background: radial-gradient(#08557e, #131414);
   font-size: 20px;
+}
+.btn-nama {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(#070707, #272729),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  display: block;
+}
+.btn-nama span {
+  display: block;
+  padding: 1px 4px;
+}
+
+.btn-edit {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(#070707, #272729),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  display: block;
+}
+
+.btn-edit span {
+  display: block;
+  padding: 2px 10px;
 }
