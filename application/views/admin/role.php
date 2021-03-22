@@ -13,8 +13,7 @@
             <?= form_error('menu', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
             <?= $this->session->flashdata('message'); ?>
 
-            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#newRoleModal">Add New Role</a>
-
+            <a href="" class="btn-role btn btn-primary mb-3" data-toggle="modal" data-target="#newRoleModal">Add New Role</a>
             <table class="table table-hover">
                 <thead>
                     <tr>

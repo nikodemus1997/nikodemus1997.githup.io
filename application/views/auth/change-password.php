@@ -30,9 +30,7 @@
                                         <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary btn-user btn-block">
-                                        Change Password
-                                    </button>
+                                    <button type="submit" class="btn-passwor btn-primary"><span>change password</span></button>
                                 </form>
                             </div>
                         </div>
