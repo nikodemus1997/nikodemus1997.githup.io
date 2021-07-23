@@ -8,11 +8,12 @@ body {
   height: 100%;
   background: #0b0b0c;
 }
+
 .d-flex .navbar {
-  background: radial-gradient(#5791b3, #0b0b0c);
+  background: radial-gradient(#2282b9, #0b0b0c);
 }
 .navbar-nav {
-  background: linear-gradient(#5791b3, #85096a);
+  background: linear-gradient(#21214d, #2282b9);
 }
 .navbar ul {
   background: radial-gradient(#08557e, #131414);
@@ -47,6 +48,22 @@ body {
 }
 
 .btn-edit span {
+  display: block;
+  padding: 2px 10px;
+}
+
+.btn-add {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(#070707, #272729),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  display: block;
+}
+.btn-add span {
   display: block;
   padding: 2px 10px;
 }

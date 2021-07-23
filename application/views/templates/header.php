@@ -17,11 +17,12 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
+
+    <link href="<?= base_url('assets/'); ?>css/style_baru.css" rel="stylesheet">
 
 
 </head>
 
-<body id="page-top">
+<body id="topbar">
     <!-- Page Wrapper -->
     <div id="wrapper">

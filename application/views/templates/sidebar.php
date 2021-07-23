@@ -3,10 +3,11 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fab fa-asymmetrik"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">PNd Admin <sup>*</sup></div>
+        <!-- <div class="sidebar-brand-icon rotate-n-15"> -->
+        <!-- <i class="fab fa-asymmetrik"></i> -->
+        <img src="<?= base_url('assets/img/farma.jpg') ?>" alt="" sizes="50px" class="rounded-circle img-thumbnail alert-dark">
+        <!-- </div> -->
+        <div class="sidebar-brand-text mx-3">Apotek A. Farma <sup></sup></div>
     </a>
 
     <!-- Divider -->

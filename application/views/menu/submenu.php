@@ -74,6 +74,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control" id="title" name="title" placeholder="Submenu title">
                     </div>
+
                     <div class="div form-group">
                         <select name="menu_id" id="menu_id" class="form-control">
                             <option value="">Select menu</option>

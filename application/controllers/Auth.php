@@ -103,6 +103,7 @@ class Auth extends CI_Controller
                 'name' => htmlspecialchars($this->input->post('name', true)),
                 'email' => htmlspecialchars($email),
                 'image' => 'default.jpg',
+
                 'password' => password_hash(
                     $this->input->post('password1'),
                     PASSWORD_DEFAULT

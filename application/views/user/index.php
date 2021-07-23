@@ -14,7 +14,7 @@
 <div class="card mb-3" style="max-width: 580px;">
     <div class="row no-gutters">
         <div class="col-md-4">
-            <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" style="width:200px">
+            <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" style="width:200px" class="rounded-circle img-thumbnail alert-dark">
         </div>
         <div class="col-md-8">
             <div class="card-body">
